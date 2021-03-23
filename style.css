@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #739e8e;
+  color: #fff;
+  height: 100px;
+}
+
+section {
+    background-color: #d2f1e3;
+    flex-grow: 1;
+}
+
+section:last-of-type {
+    background-color: #bcc5b8;
+}
+
+.contenedor {
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+button{
+  width: 100%;
+}
